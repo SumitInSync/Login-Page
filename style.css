@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+display: flex;
+justify-content: center;
+    align-items: center;
+width: 100;
+height: 100vh;
+background: url(bg.svg);
+
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 14px;
+height: 450px;
+width: 380px;
+justify-content: space-between;
+
+  backdrop-filter: blur(20px);
+}
+.login{
+    border: 2px solid white;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: white;
+
+    padding: 9px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contact img{
+    height:18px;
+    width: 18px;
+    padding-top:1px ;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.remember{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 60px;
+}
+.button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 39px;
+    width: 280px;
+    
+   
+}
+#name{
+    /* background-color: none; */
+    background: transparent;
+    border: none;
+    width: 200px;
+    color: white;
+    height: 26px;
+}
+.password input{
+    background: transparent;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 26px;
+}
+.lock img{
+    width:20px ;
+    height: 20px;
+}
+::placeholder {
+    color: white;
+    font-size: 15px;
+  }
+  .remember label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  #forgot{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .foot{
+    /* border: 2px solid white; */
+    margin-bottom: 40px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loginbut{
+    width: 280px;
+    height: 39px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+  }
+  .signup span{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+  .signup a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+  .username input{
+    outline: none;
+  }
+  .password input{
+    outline: none;
+  }
